@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(244, 244, 244);;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/src/images/ballet.jpg)
+}
+
+p {
+    color: rgb(51, 51, 51)
+}
+
+video {
+    width: 100%;
+}
+
+img{
+    width: 50px;
+}
