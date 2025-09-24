@@ -12,3 +12,11 @@ h1{
     background-color: rgb(255, 255, 255);
     color: rgb(110, 59, 0);
 }
+
+p{
+    background-color: aliceblue;
+}
+
+a{
+    color:green
+} 
