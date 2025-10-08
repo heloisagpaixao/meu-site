@@ -20,3 +20,26 @@ p{
 a{
     color:green
 } 
+
+table{
+    border: 3px solid green;
+    width: 500px;
+    border-spacing: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blue;
+}
+
+td{
+    border: 3px solid green;
+    padding: 10px;
+    color: aliceblue;
+    background-color: palevioletred;
+}
+
+th{
+    background-color: rgb(0, 0, 0);
+    border: 3px solid;
+    padding: 10px;
+    color: aqua;
+}
