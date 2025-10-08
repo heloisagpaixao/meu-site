@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+
+<body>
+    <form action="">
+        <p>
+            <label for="email_contato">Email:</label>
+            <input type="email" id="email_contato" name="email_contato" required>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required >
+        </p>
+
+        <p>
+            <label for="Nascimento">Data de Nascimento:</label>
+            <input type="date" name="Nascimento" id="Nascimento">
+        </p>
+
+        <p>
+        <p>Qual o seu período de preferência?</p>
+        <input type="radio" name="periodo"> Manhã
+        <label for="Manhã"></label>
+        <input type="radio" name="periodo"> Tarde
+        <label for="Tarde"></label>
+        <input type="radio" name="periodo"> Noite
+        <label for="Noite"></label>
+        </p>
+
+        <p>
+        <p>Quais tecnologias você conhece?</p>
+        <input type="checkbox" id="html" name="tecnologias" value="html">
+        <label for="html">HTML</label><br>
+        <input type="checkbox" id="css" name="tecnologias" value="css">
+        <label for="css">CSS</label><br>
+        <input type="checkbox" id="js" name="tecnologias" value="javascript">
+        <label for="js">JavaScript</label>
+        </p>
+
+        <p>
+            <label for="estado">Estado:</label>
+            <select name="estado" id="estado">
+                <option value="">Selecione...</option>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="MG">Minas Gerais</option>
+            </select>
+        </p>
+
+        <p>
+        <form action="/upload" method="POST" enctype="multipart/form-data">
+            <label for="avatar">Foto de Perfil:</label>
+            <input type="file" id="avatar" name="avatar">
+            </p>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar tudo...</button>
+
+
+
+
+
+
+
+
+
+
+
+
+        </form>
+</body>
+
+</html>
