@@ -20,7 +20,7 @@
 .container {
     width: 80%;
     margin: 0 auto;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid hwb(0 0% 100%);
     padding: 38px;
 }
 
@@ -62,4 +62,3 @@ nav ul ul li {
     display: block;
     width: 88px;
 }
-
