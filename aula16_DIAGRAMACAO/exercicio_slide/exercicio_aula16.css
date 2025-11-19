@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.site-header{
+.site-header {
     color: rgb(70, 0, 0);
     text-align: center;
 }
@@ -32,33 +32,30 @@ nav li a:hover {
     background-color: rgb(140, 0, 0);
 }
 
-.site-footer{
-	position: fixed;
-	bottom: 10px; 
+.site-footer {
+    position: fixed;
+    bottom: 10px;
     left: 250px;
-	width: 250px;
+    width: 250px;
 }
 
-.content-wrapper{
+.content-wrapper {
     position: relative;
-	top: 20px;
-	left: 25px;
+    top: 20px;
+    left: 25px;
 }
 
-.main-content{
-	position: absolute;
-	top: 5px;
-	left: 5px;
-	width: 500px;
-}
-
-.sidebar{
-    height: 200px;
-    padding: 10px;
-    margin: 10px;
+.main-content {
     position: absolute;
-	top: 5px; 
-	right: 5px; 
-	width: 200px;
+    top: 5px;
+    left: 5px;
+    width: 500px;
+}
+
+.sidebar {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 200px;
     background-color: rgb(219, 219, 219);
 }
