@@ -7,20 +7,20 @@
 .caixa {
     width: 100px;
     padding: 10px;
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
 }
 
 .caixa2 {
     box-sizing: border-box;
     width: 100px;
     padding: 10px;
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
 }
 
 .container {
     width: 80%;
     margin: 0 auto;
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
     padding: 38px;
 }
 
@@ -30,7 +30,7 @@ nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    background-color: #333;
+    background-color: rgb(51, 51, 51);
 }
 
 nav li {
@@ -39,19 +39,19 @@ nav li {
 
 nav li a {
     display: block;
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 1rem;
 }
 
 nav li a:hover {
-    background-color: #555;
+    background-color: rgb(85, 85, 85);
 }
 
 nav ul ul {
     display: none;
     position: absolute;
-    background-color: #333;
+    background-color: rgb(177, 177, 177);
 }
 
 nav ul li:hover>ul {
@@ -60,5 +60,6 @@ nav ul li:hover>ul {
 
 nav ul ul li {
     display: block;
-    width: 200px;
+    width: 88px;
 }
+
