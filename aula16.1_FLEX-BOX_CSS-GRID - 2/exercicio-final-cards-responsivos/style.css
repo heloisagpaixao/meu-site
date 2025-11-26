@@ -17,12 +17,12 @@ body {
 
 .header {
     grid-area: header;
-    background-color: #ece6ff;
+    background-color: #ffeae6;
 }
 
 .sidebar {
     grid-area: aside;
-    background-color: #ffdec2;
+    background-color: #d1d7ff;
 }
 
 .content {
@@ -33,6 +33,6 @@ body {
 
 .footer {
     grid-area: footer;
-    background-color: #ffdec2;
+    background-color: #d1ffd1;
     padding: 0.5px;
 }
